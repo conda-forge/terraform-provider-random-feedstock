@@ -1,6 +1,6 @@
 {% set provider = "Random" %}
 {% set goname = "github.com/terraform-providers/terraform-provider-"+provider.lower() %}
-{% set version = "3.7.1" %}
+{% set version = "3.7.2" %}
 
 {% set name = goname.split('/')[-1] %}
 
@@ -13,7 +13,7 @@ package:
 
 source:
   url: https://{{ goname }}/archive/v{{ version }}.tar.gz
-  sha256: 7176e2f05197e72e7737b6d4dfd49d1e4a28ea06366c3d542295ee0b01a3b08d
+  sha256: 35127adfc23043814314e83663bf36798881b5c6380c97d4e2d916eb6fc4f2fe
 
 
 build:
